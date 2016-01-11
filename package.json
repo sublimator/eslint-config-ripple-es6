@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-ripple-es6",
+  "description": "Ripple JavaScript Style Guide - ESLint Shareable Config",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nicholas Dudfield",
+    "email": "niq@ripple.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sublimator/eslint-config-ripple-es6/issues"
+  },
+  "devDependencies": {
+    "eslint": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/sublimator/eslint-config-ripple-es6",
+  "keywords": [
+    "ripple",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sublimator/eslint-config-ripple-es6.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "js-yaml": "^3.5.2"
+  }
+}
